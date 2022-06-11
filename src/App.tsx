@@ -101,18 +101,17 @@ const Destructure = () => {
           </p>
         </article>
       </section>
-      <section className='bg-white flex flex-row justify-center py-32'>
-        <article className='w-1/5 mx-20 pt-6'>
-          <h2>
-            <br /> <br />
-            From few to a <br /> fandom
+      <section className='bg-offWhite flex flex-col justify-center items-center py-32'>
+        <article className='text-center mx-20 pt-6 px-80 '>
+          <h2 className='font-extrabold'>
+            RELIABLE TECH FOR STAYING CLOSE
           </h2>
           <br />
           <p>
-            Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.
+            Low-latency voice and video feels like you're in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.
           </p>
         </article>
-        <img src="../images/section-image-4.svg" className='' />
+        <img src="../images/section-image-4.svg" className='w-1/2' />
       </section>
     </div>
   )
