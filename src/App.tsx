@@ -75,10 +75,11 @@ const Destructure = () => {
           </p>
         </article>
       </section>
-      <section>
+      <section className='bg-offWhite flex flex-row justify-center py-32'>
         <article className='w-1/5 mx-20 pt-6'>
           <h2>
-            Create an <br /> invite-only <br /> place where you <br /> belong
+            <br /> <br />
+            Where hanging <br /> out is easy
           </h2>
           <br />
           <p>
