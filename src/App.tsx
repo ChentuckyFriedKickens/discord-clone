@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Logo from './logo'
 import '../tailwind/output.css'
+import './App.scss'
 
 function App() {
   const [count, setCount] = useState(0)
