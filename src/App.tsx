@@ -83,10 +83,36 @@ const Destructure = () => {
           </h2>
           <br />
           <p>
-            Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.
+            Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.
           </p>
         </article>
         <img src="../images/section-image-2.svg" className='w-1/3' />
+      </section>
+      <section className='bg-white flex flex-row justify-center py-32'>
+        <img src="../images/section-image-3.svg" className='w-1/3' />
+        <article className='w-1/5 mx-20 pt-6'>
+          <h2>
+            <br /> <br />
+            From few to a <br /> fandom
+          </h2>
+          <br />
+          <p>
+            Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.
+          </p>
+        </article>
+      </section>
+      <section className='bg-white flex flex-row justify-center py-32'>
+        <article className='w-1/5 mx-20 pt-6'>
+          <h2>
+            <br /> <br />
+            From few to a <br /> fandom
+          </h2>
+          <br />
+          <p>
+            Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.
+          </p>
+        </article>
+        <img src="../images/section-image-4.svg" className='' />
       </section>
     </div>
   )
