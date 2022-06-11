@@ -750,6 +750,14 @@ video {
   height: 1rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
 .w-4\/6 {
   width: 66.666667%;
 }
@@ -1186,6 +1194,10 @@ p {
 
   .mdlg\:flex {
     display: flex;
+  }
+
+  .mdlg\:h-20 {
+    height: 5rem;
   }
 }
 
