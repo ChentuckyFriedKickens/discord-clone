@@ -1,29 +1,43 @@
 $primary : #404eed;
+$primary-darker : rgb(60, 73, 216);
 $white : #fff;
 $off-white : #f6f6f6;
 $dark : #23272a;
+$less-dark : #333;
 
 .minh-40 {
   min-height: 40rem;
 }
 
 .dark-btn {
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem;
   background-color: $dark;
   border-radius: 10rem;
+  transition: 0.4s;
+  transition-property: color;
+  transition-property: background-color;
+  transition-property: box-shadow;
 
   &:hover {
     cursor: pointer;
+    background-color: $less-dark;
+    box-shadow: 0px 4px 10px rgba(65, 65, 65, 0.397);
   }
 }
 
 .light-btn {
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem;
   color: black;
   background-color: $white;
   border-radius: 10rem;
+  transition: 0.4s;
+  transition-property: color;
+  transition-property: background-color;
+  transition-property: box-shadow;
 
   &:hover {
     cursor: pointer;
+    color: $primary;
+    box-shadow: 0px 10px 10px $primary-darker;
   }
 }
