@@ -114,6 +114,7 @@ const Destructure = () => {
         <img src="../images/section-image-4.svg" className='w-1/2 pb-10' />
         <img src="../images/stars.svg" alt="" />
         <h3>Ready to start your journey?</h3>
+        <Button elClasses='blurple-btn' text='Download' />
       </section>
     </div>
   )
