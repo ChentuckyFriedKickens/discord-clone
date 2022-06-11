@@ -31,6 +31,22 @@ p {
   @apply text-xl;
 }
 
+.sect {
+  @apply flex flex-col xlg:flex-row items-center justify-center text-center xlg:text-left py-10 xlg:py-32;
+}
+
+.sectImg {
+  @apply w-2/3 xlg:w-1/3 min-w-70vw lg:min-w-0;
+}
+
+.min-w-70vw {
+  min-width: 90vw;
+}
+
+.sectArticle {
+  @apply lg:w-3/5 xlg:w-1/5 mx-20 xlg:pt-6;
+}
+
 .bg-image-leaves {
   background-image: url('/images/bg.jpg');
   background-repeat: no-repeat;

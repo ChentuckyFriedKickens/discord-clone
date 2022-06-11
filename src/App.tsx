@@ -29,18 +29,20 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='flex flex-row items-center justify-between p-5 w-4/6'>
-      <Logo />
-      <div className='flex flex-row items-center justify-center text-sm'>
-        <Navbutton text='Download' />
-        <Navbutton text='Nitro' />
-        <Navbutton text='Safety' />
-        <Navbutton text='Support' />
-        <Navbutton text='Blog' />
-        <Navbutton text='Careers' />
-      </div>
-      <Button elClasses='light-btn' text='Open Discord' />
-    </nav>
+    <div>  
+      <nav className='flex flex-row items-center justify-between p-5 w-4/6'>
+        <Logo />
+        <div className='flex flex-row items-center justify-center text-sm'>
+          <Navbutton text='Download' />
+          <Navbutton text='Nitro' />
+          <Navbutton text='Safety' />
+          <Navbutton text='Support' />
+          <Navbutton text='Blog' />
+          <Navbutton text='Careers' />
+        </div>
+        <Button elClasses='light-btn' text='Open Discord' />
+      </nav>
+    </div>
   )
 }
 
@@ -71,11 +73,11 @@ const Destructure = () => {
           </article>
         </div>
       </section>
-      <section className='bg-white flex xlg:flex-row items-center justify-center py-32'>
-        <img src={SectionImage1} className='w-2/3 xl:w-1/3' />
-        <article className='xl:w-1/5 mx-20 pt-6'>
+      <section className='bg-white sect'>
+        <img src={SectionImage1} className='sectImg' />
+        <article className='sectArticle'>
           <h2>
-            Create an <br /> invite-only <br /> place where you belong
+            Create an <br /> invite-only place where you belong
           </h2>
           <br />
           <p>
@@ -83,8 +85,8 @@ const Destructure = () => {
           </p>
         </article>
       </section>
-      <section className='bg-offWhite flex flex-row justify-center py-32'>
-        <article className='w-1/5 mx-20 pt-6'>
+      <section className='bg-offWhite sect'>
+        <article className='sectArticle'>
           <h2>
             <br /> <br />
             Where hanging <br /> out is easy
@@ -94,11 +96,11 @@ const Destructure = () => {
             Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.
           </p>
         </article>
-        <img src={SectionImage2} className='w-1/3' />
+        <img src={SectionImage2} className='sectImg' />
       </section>
-      <section className='bg-white flex flex-row justify-center py-32'>
-        <img src={SectionImage3} className='w-1/3' />
-        <article className='w-1/5 mx-20 pt-6'>
+      <section className='bg-white sect'>
+        <img src={SectionImage3} className='sectImg' />
+        <article className='sectArticle'>
           <h2>
             <br /> <br />
             From few to a <br /> fandom
@@ -110,7 +112,7 @@ const Destructure = () => {
         </article>
       </section>
       <section className='bg-offWhite flex flex-col justify-center items-center py-32'>
-        <article className='text-center mx-20 pt-6 px-80 '>
+        <article className='text-center m-4'>
           <h2 className='font-extrabold'>
             RELIABLE TECH FOR STAYING CLOSE
           </h2>
@@ -121,7 +123,7 @@ const Destructure = () => {
         </article>
         <img src={SectionImage4} className='w-1/2 pb-10' />
         <img src={stars} alt="" />
-        <h3>Ready to start your journey?</h3>
+        <h3 className='text-center xlg:text-left'>Ready to start your journey?</h3>
         <Button elClasses='blurple-btn' text='Download' />
       </section>
     </div>
