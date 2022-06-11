@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        xlg : '1600px',        
+      },
       colors: {
       blurple : '#404eed',
       bright : '#fff',

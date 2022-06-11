@@ -46,7 +46,7 @@ const Navbar = () => {
 
 const Button = (props : any) => {
   return (
-    <a className={` mx-2 ${props.elClasses}`} href={props.link}>
+    <a className={` mx-2 my-4 ${props.elClasses}`} href={props.link}>
       {props.text}
     </a>
   )
@@ -59,23 +59,23 @@ const Destructure = () => {
         <div className='flex justify-center items-center'>
           <Navbar />
         </div>
-        <div className='px-44'>
-          <article className='text-center px-96 pt-32 flex flex-col justify-center'>
+        <div className='xl:px-44'>
+          <article className='text-center px-12 xlg:px-96 pt-32 flex flex-col justify-center'>
             <h1 className='text-bright'>IMAGINE A PLACE...</h1>
             <br />
             <p>...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often.</p>
-            <div className='flex flex-row items-center justify-center text-xl p-6'>
+            <div className='flex flex-col md:flex-row items-center justify-center text-xl p-6'>
               <Button elClasses='light-btn' text='Download' />
               <Button elClasses='dark-btn' text='Open Discord in your browser' />
             </div>
           </article>
         </div>
       </section>
-      <section className='bg-white flex flex-row justify-center py-32'>
-        <img src={SectionImage1} className='w-1/3' />
-        <article className='w-1/5 mx-20 pt-6'>
+      <section className='bg-white flex xlg:flex-row items-center justify-center py-32'>
+        <img src={SectionImage1} className='w-2/3 xl:w-1/3' />
+        <article className='xl:w-1/5 mx-20 pt-6'>
           <h2>
-            Create an <br /> invite-only <br /> place where you <br /> belong
+            Create an <br /> invite-only <br /> place where you belong
           </h2>
           <br />
           <p>

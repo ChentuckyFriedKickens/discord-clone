@@ -6,6 +6,11 @@ $off-white : #f6f6f6;
 $dark : #23272a;
 $less-dark : #333;
 
+
+body {
+  overflow-x: hidden;
+}
+
 .minh-40 {
   min-height: 40rem;
 }
@@ -56,7 +61,6 @@ $less-dark : #333;
   transition-property: color;
   transition-property: background-color;
   transition-property: box-shadow;
-  margin: 3rem 0;
 
   &:hover {
     cursor: pointer;
