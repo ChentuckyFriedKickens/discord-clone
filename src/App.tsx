@@ -87,10 +87,10 @@ const Destructure = () => {
             Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.
           </p>
         </article>
-        <img src="../images/section-image-2.svg" className='w-1/3' />
+        <img src="/images/section-image-2.svg" className='w-1/3' />
       </section>
       <section className='bg-white flex flex-row justify-center py-32'>
-        <img src="../images/section-image-3.svg" className='w-1/3' />
+        <img src="/images/section-image-3.svg" className='w-1/3' />
         <article className='w-1/5 mx-20 pt-6'>
           <h2>
             <br /> <br />
@@ -112,8 +112,8 @@ const Destructure = () => {
             Low-latency voice and video feels like you're in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.
           </p>
         </article>
-        <img src="../images/section-image-4.svg" className='w-1/2 pb-10' />
-        <img src="../images/stars.svg" alt="" />
+        <img src="/images/section-image-4.svg" className='w-1/2 pb-10' />
+        <img src="/images/stars.svg" alt="" />
         <h3>Ready to start your journey?</h3>
         <Button elClasses='blurple-btn' text='Download' />
       </section>
