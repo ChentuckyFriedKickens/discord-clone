@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-bold {
+  @apply text-dark font-extrabold;
+}
+
+h1 {
+  @apply text-6xl primary-bold;
+  line-height: 1.2;
+}
+
+h2 {
+  @apply text-5xl primary-bold;
+}
+
+h3 {
+  @apply text-4xl primary-bold;
+}
+
+h4 {
+  @apply text-3xl primary-bold;
+}
+
+h5 {
+  @apply text-2xl primary-bold;
+}
+
+p {
+  @apply text-xl;
+}
+
+.bg-image-leaves {
+  background-image: url('/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
