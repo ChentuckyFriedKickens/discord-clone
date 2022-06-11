@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from './logo.svg'
+import Logo from './logo'
 import '../tailwind/output.css'
 
 function App() {
@@ -13,8 +13,34 @@ function App() {
 }
 
 const Navbar = () => {
+
+  const Navbutton = (props : any) => {
+    return (
+      <a className='font-semibold mx-5 px-1 hover:cursor-pointer hover:underline' href={props.link}>{props.text}</a>
+    )
+  }
+
   return (
-    <img src="data:image/png;base64,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" alt="" />
+    <nav className='flex flex-row items-center justify-around p-5'>
+      <Logo />
+      <div className='flex flex-row items-center justify-center'>
+        <Navbutton text='Download' />
+        <Navbutton text='Nitro' />
+        <Navbutton text='Safety' />
+        <Navbutton text='Support' />
+        <Navbutton text='Blog' />
+        <Navbutton text='Careers' />
+      </div>
+      <Button elClasses='light-btn' text='Open Discord' />
+    </nav>
+  )
+}
+
+const Button = (props : any) => {
+  return (
+    <a className={`${props.elClasses}`} href={props.link}>
+      {props.text}
+    </a>
   )
 }
 
@@ -23,10 +49,17 @@ const Destructure = () => {
     <div>
       <section className='heroSection bg-blurple minh-40 text-bright'>
         <Navbar />
-        <h1 className='text-bright'>Test</h1>
+        <div className='px-48'>
+          <article className='text-center px-96 pt-32 flex flex-col justify-center'>
+            <h1 className='text-bright'>IMAGINE A PLACE...</h1>
+            <br />
+            <p>...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often.</p>
+            <div></div>
+          </article>
+        </div>
       </section>
     </div>
   )
 }
 
-export default App
+export default App;

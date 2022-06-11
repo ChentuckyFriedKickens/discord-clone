@@ -6,3 +6,24 @@ $dark : #23272a;
 .minh-40 {
   min-height: 40rem;
 }
+
+.dark-btn {
+  padding: 0.5rem 1rem;
+  background-color: $dark;
+  border-radius: 10rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.light-btn {
+  padding: 0.5rem 1rem;
+  color: black;
+  background-color: $white;
+  border-radius: 10rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

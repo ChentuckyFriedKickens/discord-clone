@@ -5,13 +5,13 @@ module.exports = {
     './src/components/**{.tsx,jsx,ts,js}'
   ],
   theme: {
-    colors: {
+    extend: {
+      colors: {
       blurple : '#404eed',
       bright : '#fff',
       dark : '#23272a',
       offWhite : '#f6f6f6',
-    },
-    extend: {},
+    },},
   },
   plugins: [],
 }
