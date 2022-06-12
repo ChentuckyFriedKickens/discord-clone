@@ -9,6 +9,10 @@ import SectionImage3 from "/images/section-image-3.svg"
 import SectionImage4 from "../images/section-image-4.svg"
 import stars from "../images/stars.svg"
 
+import HeroClouds from '../images/hero-coulds.svg'
+import HeroImg1 from '../images/hero-image-1.svg'
+import HeroImg2 from '../images/hero-image-2.svg'
+
 
 function App() {
   const [count, setCount] = useState(0)
