@@ -74,7 +74,8 @@ body {
 }
 
 .heroSection {
-  background-image: url('../images/hero-clouds.svg');
-  background-size: cover;
-  background-position: center;
+  background-image: url('../images/hero-image-2.svg'), url('../images/hero-image-1.svg'), url('../images/hero-clouds.svg');
+  background-size: initial, cover;
+  background-repeat: no-repeat;
+  background-position: right bottom, left bottom, center bottom;
 }
