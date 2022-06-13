@@ -70,7 +70,7 @@ const Destructure = () => {
             <h1 className='text-bright'>IMAGINE A PLACE...</h1>
             <br />
             <p>...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often.</p>
-            <div className='flex flex-col md:flex-row items-center justify-center text-xl p-6'>
+            <div className='flex flex-col md:flex-row items-center justify-center text-xl'>
               <Button elClasses='light-btn' text='Download' />
               <Button elClasses='dark-btn' text='Open Discord in your browser' />
             </div>

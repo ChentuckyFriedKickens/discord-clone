@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply text-xs md:text-sm lg:text-base;
+}
+
 .primary-bold {
   @apply text-dark font-extrabold;
 }
