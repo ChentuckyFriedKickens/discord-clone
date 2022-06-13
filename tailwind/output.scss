@@ -1092,9 +1092,14 @@ p {
   text-align: center;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .sect {
     flex-direction: row;
+  }
+}
+
+@media (min-width: 1600px) {
+  .sect {
     padding-top: 8rem;
     padding-bottom: 8rem;
     text-align: left;
@@ -1163,8 +1168,12 @@ p {
 }
 
 @media (min-width: 1024px) {
-  .lg\:hidden {
-    display: none;
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
+  .lg\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 }
 
@@ -1184,6 +1193,18 @@ p {
 }
 
 @media (min-width: 1600px) {
+  .xlg\:w-1\/2 {
+    width: 50%;
+  }
+
+  .xlg\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .xlg\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+
   .xlg\:px-96 {
     padding-left: 24rem;
     padding-right: 24rem;

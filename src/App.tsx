@@ -89,7 +89,8 @@ const Destructure = () => {
           </p>
         </article>
       </section>
-      <section className='bg-offWhite sect'>
+      <section className='bg-offWhite sect lg:flex-row-reverse'>
+        <img src={SectionImage2} className='sectImg' />
         <article className='sectArticle'>
           <h2>
             <br /> <br />
@@ -100,7 +101,6 @@ const Destructure = () => {
             Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.
           </p>
         </article>
-        <img src={SectionImage2} className='sectImg block lg:hidden' />
       </section>
       <section className='bg-white sect'>
         <img src={SectionImage3} className='sectImg' />
@@ -125,7 +125,7 @@ const Destructure = () => {
             Low-latency voice and video feels like you're in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.
           </p>
         </article>
-        <img src={SectionImage4} className='w-1/2 pb-10' />
+        <img src={SectionImage4} className='xlg:w-2/3 pb-10' />
         <img src={stars} alt="" />
         <h3 className='text-center xlg:text-left'>Ready to start your journey?</h3>
         <Button elClasses='blurple-btn' text='Download' />

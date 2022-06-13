@@ -32,7 +32,7 @@ p {
 }
 
 .sect {
-  @apply flex flex-col xlg:flex-row items-center justify-center text-center xlg:text-left py-10 xlg:py-32;
+  @apply flex flex-col lg:flex-row items-center justify-center text-center xlg:text-left py-10 xlg:py-32;
 }
 
 .sectImg {
