@@ -74,8 +74,30 @@ body {
 }
 
 .heroSection {
-  background-image: url('../images/hero-image-2.svg'), url('../images/hero-image-1.svg'), url('../images/hero-clouds.svg');
-  background-size: initial, cover;
+  background-image: /*url('../images/hero-image-2.svg), url('../images/hero-image-1.svg'), */url('../images/hero-clouds.svg');
+  background-size: initial, contain;
   background-repeat: no-repeat;
-  background-position: right bottom, left bottom, center bottom;
+  background-position: 
+  //right bottom, 
+  center bottom; 
+  //center bottom;
 }
+
+/*.heroSection {
+  background-image: none, url('../images/hero-image-1.svg'), url('../images/hero-clouds.svg');
+  background-size: initial, contain;
+  background-repeat: no-repeat;
+  background-position: right bottom, center bottom, center bottom;
+  padding-bottom: 17rem;
+}
+
+@media screen and (min-width : 1024px) {
+  .heroSection {
+    background-image: url('../images/hero-image-2.svg'), url('../images/hero-image-1.svg'), url('../images/hero-clouds.svg');
+    background-size: initial, cover;
+    background-repeat: no-repeat;
+    background-position: right bottom, left bottom, center bottom;
+  }
+}
+
+*/

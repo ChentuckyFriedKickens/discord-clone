@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Logo from './logo'
-import '../tailwind/output.css'
+import '../tailwind/output.scss'
 import './App.scss'
 
 import SectionImage1 from "../images/section-image-1.svg"
@@ -65,7 +65,7 @@ const Destructure = () => {
         <div className='flex justify-center items-center'>
           <Navbar />
         </div>
-        <div className='xl:px-44'>
+        <div className='xl:px-52'>
           <article className='text-center px-12 xlg:px-96 pt-32 flex flex-col justify-center'>
             <h1 className='text-bright'>IMAGINE A PLACE...</h1>
             <br />
@@ -100,7 +100,7 @@ const Destructure = () => {
             Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.
           </p>
         </article>
-        <img src={SectionImage2} className='sectImg' />
+        <img src={SectionImage2} className='sectImg block lg:hidden' />
       </section>
       <section className='bg-white sect'>
         <img src={SectionImage3} className='sectImg' />
