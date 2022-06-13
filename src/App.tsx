@@ -33,7 +33,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className='w-screen flex flex-col justify-center align-center items-center h-4 mdlg:h-20'>  
+    <div className='w-screen flex flex-col justify-center align-center items-center h-4 mdlg:h-20 overflow-hidden'>  
       <nav className='hidden mdlg:flex flex-row items-center justify-between p-5 w-4/6'>
         <Logo />
         <div className='flex flex-row items-center justify-center text-sm'>
