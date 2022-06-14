@@ -112,7 +112,9 @@ section {
   }
 }
 
-article, img {
-  opacity: 0;
-  transition: opacity 0.5s ease;
+@media screen and (min-width: 1024px) {
+  article, img {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
 }
