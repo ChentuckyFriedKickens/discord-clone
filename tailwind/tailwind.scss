@@ -10,6 +10,12 @@ html {
   @apply text-dark font-extrabold;
 }
 
+a {
+  h1 {
+    color: red
+  }
+}
+
 h1 {
   @apply text-6xl primary-bold;
   line-height: 1.2;

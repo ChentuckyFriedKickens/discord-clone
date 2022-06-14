@@ -61,7 +61,7 @@ const Button = (props : any) => {
 const Destructure = () => {
   return (
     <div>
-      <section className='heroSection bg-blurple minh-40 text-bright'>
+      <section className='heroSection bg-blurple minh-40 text-bright show'>
         <div className='flex justify-center items-center'>
           <Navbar />
         </div>
@@ -77,7 +77,7 @@ const Destructure = () => {
           </article>
         </div>
       </section>
-      <section className='bg-white sect'>
+      <section className='bg-white sect animate'>
         <img src={SectionImage1} className='sectImg' />
         <article className='sectArticle'>
           <h2>
@@ -89,7 +89,7 @@ const Destructure = () => {
           </p>
         </article>
       </section>
-      <section className='bg-offWhite sect lg:flex-row-reverse'>
+      <section id='testel' className='bg-offWhite sect lg:flex-row-reverse animate testel'>
         <img src={SectionImage2} className='sectImg' />
         <article className='sectArticle'>
           <h2>
@@ -102,7 +102,7 @@ const Destructure = () => {
           </p>
         </article>
       </section>
-      <section className='bg-white sect'>
+      <section className='bg-white sect animate'>
         <img src={SectionImage3} className='sectImg' />
         <article className='sectArticle'>
           <h2>
@@ -115,7 +115,7 @@ const Destructure = () => {
           </p>
         </article>
       </section>
-      <section className='bg-offWhite flex flex-col justify-center items-center py-32'>
+      <section className='bg-offWhite flex flex-col justify-center items-center py-32 animate'>
         <article className='text-center m-4'>
           <h2 className='font-extrabold'>
             RELIABLE TECH FOR STAYING CLOSE
