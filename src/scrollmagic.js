@@ -22,8 +22,6 @@ $(document).ready(function() {
     .reverse(reverse)
     .addTo(controller);
   }
-  
-  const testArr = [1,2,3,4,5]
 
   for (let i = 0; i < targets.length; i++) {
     Animate(targets[i])
